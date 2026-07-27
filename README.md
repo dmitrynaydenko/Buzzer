@@ -188,21 +188,21 @@ Server (Windows)
  
 -- File Structure
 buzzer/
-├── Server/
-│   ├── Server3.pas          // Main server code
-│   ├── passw/
-│   │   └── users.txt        // User database (username|password|created|lastlogin|lastip)
-│   ├── logs/
-│   │   ├── server_events.log
-│   │   └── server_stats.log
-│   └── chat/
-│       ├── global_chat.txt
-│       └── room_*.txt       // Room chat history
-├── Client/
-│   ├── Client.pas           // Main client code
-│   ├── NAudio.dll           // Audio library
-│   └── sound.mp3            // Notification sound for @all mentions
-└── README.md
+  Server/
+    Server3.pas          // Main server code
+    passw/
+      users.txt        // User database (username|password|created|lastlogin|lastip)
+    logs/
+      server_events.log
+      server_stats.log
+    chat/
+      global_chat.txt
+      room_*.txt       // Room chat history
+  Client/
+    Client.pas           // Main client code
+    NAudio.dll           // Audio library
+    sound.mp3            // Notification sound for @all mentions
+    README.md
 
 
 -- Development
